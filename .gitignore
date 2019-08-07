@@ -1,0 +1,10 @@
+# sbt
+project/target
+target/
+
+# intellij idea
+*.iml
+.idea
+
+# mac
+.DS_Store
