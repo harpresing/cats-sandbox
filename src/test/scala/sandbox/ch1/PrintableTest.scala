@@ -21,6 +21,7 @@ class PrintableTest extends FunSuite {
     // That's what happens in the background when you go fatCat.format
     // new PrintableOps[Cat](fatCat).format
     assert(fatCat.format === "Fat Henry is a 6 year old Black cat.")
+    assert(CatsShow.print(fatCat) === "Fat Henry is a 6 year old Black cat.")
     assert(List(1,2,3).format === "1, 2, 3")
   }
 
